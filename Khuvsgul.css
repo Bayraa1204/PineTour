@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+  } 
+  .firstsection {
+    height: 605px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first {
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    flex-direction: column;;
+  }     
+  .pinetour {
+    width: 50px;
+    height: 42px; 
+    gap: 0;
+  }
+
+  .pictures {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+
+  }
+  .Word {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030; 
+    flex-direction: column;
+  }
+  .trip {
+    color: #ABABAB;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: monospace;
+    
+  }
+  .images {
+    width: 284px;
+    height: 400px;
+  }
+  .second {
+    display: flex;
+    justify-content: center;
+  }
+  .Travelphoto {
+    width: 692px;
+    height: 845px;
+  }
+  .tourdays {
+    font-size: 24px;
+    font-family:  monospace;
+    font-weight: 700;
+    color: #ABABAB;
+  }
+  .destination {
+    font-family: monospace;
+    font-size: 42px;
+    font-weight: 700;
+    color: #303030; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .descircle {
+    display: flex;
+  }
+  .alotcircle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    height: 559px;
+    width: 56px;
+  }
+  .circle {
+    background-color: #1D1F24;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #16A94A;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .circlehead {
+    color: #000000;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .smallhead {
+    color: #777777;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .circlewords {
+    display: flex;
+    gap: 16px;
+  }
+  .headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .photowords {
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+     width: 358px;
+     height: 796px;
+  }
+  .twowords {
+    display: flex;
+    flex-direction: column;
+  }
+  .secondsection {
+    display: flex;
+    justify-content: center;
+    height: 845px;
+    width: 1198px;
+    gap: 125px;
+    margin: 50px;
+  }
+  .all {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color:#F4F4F4 ;
+    gap: 250px; 
+  }
+  .wordwithhead {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 231px;
+  }
+  .whiteandblack {
+    width: 358px;
+    height: 157px;
+  }
+  .third {
+    display: flex;
+    justify-content: center;
+  }
+  .thirdsectionhead {
+    width: 299px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .thirdsectionboxes {
+    width: 590px;
+    height: 370px;
+    gap: 20px;  
+    padding: 40px;
+    display: flex;
+
+  }
+  .box1 {
+    display: flex;
+    width: 205px;
+    height: 290px;
+    padding: 40px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    flex-direction: column;
+    border: 3px solid #FFFFFF;
+    transition-duration: 0.4s;
+  }
+  .box1:hover {
+    border: 3px solid rgb(75, 207, 39);
+  }
+  .packs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 700;
+    height: 229px;  
+    gap: 28px;
+  }
+  .packinfo {
+    display: flex;
+    flex-direction: column;
+    height: 172px;
+    gap: 13px;
+  }
+  .packinfowords {  
+    font-size: 20px;
+    font-family: monospace;
+    color: #777777;
+    display: flex;
+    gap: 10px;  
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  .packdot {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #777777;
+  }
+  .thirdsection {
+    display: flex;
+    flex-direction: column;
+    width: 789px;
+    height: 607px;
+    gap: 80px;
+    align-items: center;
+  } 
+  .cost {
+    width: 205px;
+    height:   39px;
+    gap: 10px;
+    display: flex;
+    justify-content: end;
+  }
+  .costmoney {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .pricing {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #303030; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 118px;
+  }
+  .areyoureadyborder {
+    background-color: #171717;
+    padding: 150px 0px 150px 0px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .areuready {
+    color: #FFFFFF;
+    font-size: 32px;
+    height: 39px;
+    font-family: monospace;
+    font-weight: 700;
+  }
+  .button {
+    background-color: #18BA51;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 90px;
+    height: 43px;
+    font-weight: 700;
+    font-family: monospace;
+    transition-duration: 0.4s;
+    line-height: 19.5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #f2f2f2; 
+    color: #18BA51;
+  }
+  .lastrow {
+    padding: 80px 120px 80px 120px;
+    background-color: #101010;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lastwords {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: monospace;
+    font-weight: 700;
+    width: 81px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rowfaceinsta {
+    width: 1200px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .instaface {
+    padding: 10px 20px 10px 20px;
+    width: 160px;
+    cursor: pointer;
+  }
+  .photos {
+    gap: 20px;
+    height: 44px;
+    width: 450px;
+  }
